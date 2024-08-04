@@ -1,4 +1,6 @@
 #include <iostream>
+#include <string>
+
 
 
 int main(){
@@ -27,7 +29,7 @@ int main(){
 
     ///////////////////////////////////////////////////////
 
-    std::string name;
+    /*std::string name;
 
     std::cout << "Ange ditt namn: ";
     std::getline(std::cin,name);
@@ -39,13 +41,21 @@ int main(){
         std::cout << "We are not here" << std::endl;
     } else {
         std::cout << "Fuck you" << std::endl;
+    }*/
+    
+   ///////////////////////////////////////////////////////
+
+
+    std::string name = "Amin Nazari";
+
+    std::cout << name[0] << std::endl;
+    std::cout << name << std::endl;
+
+    for (int i = 0; i < name.length(); i++){   
+        std::cout << name[i] << std::endl;
     }
     
-   
-
-
     
-
     
 
 
