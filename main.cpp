@@ -63,7 +63,20 @@ int main(){
 
     std::cout << std::endl;
 
-    std::string name = "Amin Nazari";
+    std::string name = "Amin ";
+    std::string name2 = "Nazari";
+
+    std::string name3 = name.append(name2);
+
+    std::cout << "Längden på strängen är: " << name3.length() << " bokstäver." << std::endl;
+    std::cout << "Storleken på strängen är: " << name2.size() << " bokstäver." << std::endl;
+    std::cout << name3[name3.length() -1] << std::endl;
+    std::cout << name3 << std::endl;
+    name.at(2) = 'J';
+    std::cout << name << std::endl;
+
+
+    
 
     for(int i = 0; i < name.length(); i++){
         std::cout << name[i] << std::endl;
@@ -78,6 +91,8 @@ int main(){
         
         }
     }
+
+
 
 
     return 0;
