@@ -27,14 +27,14 @@ int main(){
 
     ///////////////////////////////////////////////////////
 
-
     std::string name;
 
-    std::cout << "Ange ett namn: ";
-    std::getline(std::cin, name);
+    std::cout << "Ange ditt namn: ";
+    std::getline(std::cin,name);
 
-    std::cout << name << std::endl;
+    std::cout << "Ditt namn är: " << name << std::endl;
 
+    
     
 
     
