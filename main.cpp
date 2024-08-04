@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include "function.cpp"
 
 
 
@@ -46,17 +47,37 @@ int main(){
    ///////////////////////////////////////////////////////
 
 
-    std::string name = "Amin Nazari";
+    /*std::string name = "Amin Nazari";
 
     std::cout << name[0] << std::endl;
     std::cout << name << std::endl;
 
     for (int i = 0; i < name.length(); i++){   
         std::cout << name[i] << std::endl;
+    }*/
+    
+    ///////////////////////////////////////////////////////
+    
+
+    Greetings();
+
+    std::cout << std::endl;
+
+    std::string name = "Amin Nazari";
+
+    for(int i = 0; i < name.length(); i++){
+        std::cout << name[i] << std::endl;
     }
-    
-    
-    
+
+
+    std::cout << std::endl;
+
+    for(int j = 0; j < 10; j++){
+        if (j % 2 == 0){
+        std::cout << j << std::endl;
+        
+        }
+    }
 
 
     return 0;
