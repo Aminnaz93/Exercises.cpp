@@ -32,14 +32,21 @@ int main(){
     std::cout << "Ange ditt namn: ";
     std::getline(std::cin,name);
 
-    std::cout << "Ditt namn är: " << name << std::endl;
-
-    
-    
-
+    if (name == "Amin Nazari"){
+        std::cout << "We are here" << std::endl;
+    } else if (name == "Passi Prudence")
+    {
+        std::cout << "We are not here" << std::endl;
+    } else {
+        std::cout << "Fuck you" << std::endl;
+    }
     
    
 
+
+    
+
+    
 
 
     return 0;
