@@ -129,7 +129,7 @@ int main(){
 
     ///////////////////////////////////////////////////////
 
-    std::string name;
+    /*std::string name;
     std::string name2;
 
     std::cout << "Enter a name: ";
@@ -150,8 +150,56 @@ int main(){
         }
     } else {
         std::cout << "Fuck you" << std::endl;
-    }
+    }*/
 
+
+    ///////////////////////////////////////////////////////
+
+
+      /*int number = -1; // Initialisera variabeln
+
+        while (number != 0) { // Ändra villkoret för att avsluta loopen om number är 0
+        std::cout << "Enter a number (1-7) or 0 to exit: ";
+        std::cin >> number;
+
+        switch (number) {
+        case 1:
+            std::cout << "Monday" << std::endl;
+            break;
+        case 2:
+            std::cout << "Tuesday" << std::endl;
+            break;
+        case 3:
+            std::cout << "Wednesday" << std::endl; // Rättade stavfelet "Wednsday" till "Wednesday"
+            break;
+        case 4:
+            std::cout << "Thursday" << std::endl;
+            break;
+        case 5:
+            std::cout << "Friday" << std::endl;
+            break;
+        case 6:
+            std::cout << "Saturday" << std::endl;
+            break;
+        case 7:
+            std::cout << "Sunday" << std::endl;
+            break;
+        case 0:
+            std::cout << "Exiting program." << std::endl;
+            break;
+        default:
+            std::cout << "Invalid input. Please enter a number between 1 and 7, or 0 to exit." << std::endl;
+            break;
+        }
+    }*/
+
+///////////////////////////////////////////////////////
+
+int i = 0;
+while(i < 5){
+    std::cout << i << std::endl;
+    i++;
+}
 
 
     return 0;
