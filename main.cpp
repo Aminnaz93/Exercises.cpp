@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <math.h>
 #include "function.cpp"
 
 
@@ -59,7 +60,7 @@ int main(){
     ///////////////////////////////////////////////////////
     
 
-    Greetings();
+    /*Greetings();
 
     std::cout << std::endl;
 
@@ -76,7 +77,7 @@ int main(){
     std::cout << name << std::endl;
 
 
-    
+
 
     for(int i = 0; i < name.length(); i++){
         std::cout << name[i] << std::endl;
@@ -90,8 +91,66 @@ int main(){
         std::cout << j << std::endl;
         
         }
-    }
+    }*/
 
+    ///////////////////////////////////////////////////////
+
+
+    /*std::string name;
+    int age;
+
+    std::cout << "Enter your name: ";
+    std::getline(std::cin,name);
+
+    std::cout << std::endl;
+
+    std::cout << "Enter your age: ";
+    std::cin >> age;
+
+    std::cout << "Your name is " << name << " and your age is " << age << "." << std::endl;*/
+
+
+    ///////////////////////////////////////////////////////
+
+
+    /*std::cout << sqrt(64) << std::endl;
+    std::cout << round(54.4) << std::endl;
+    std::cout << log(2) << std::endl;*/
+
+
+    ///////////////////////////////////////////////////////
+
+
+    /*int age = 20;
+    int age2 = 30;
+
+    std::cout << (age > age2) << std::endl;*/
+
+
+    ///////////////////////////////////////////////////////
+
+    std::string name;
+    std::string name2;
+
+    std::cout << "Enter a name: ";
+    std::cin >> name;
+
+    std::cout << "Enter another name: ";
+    std::cin >> name2;
+
+
+
+    if(name == "Amin"){
+        if(name2 == "Nazari"){
+            std::cout << "Hej" << std::endl;
+        }
+    } else if(name != "Amin"){
+        if(name != "Nazari"){
+            std::cout << "Bajs" << std::endl;
+        }
+    } else {
+        std::cout << "Fuck you" << std::endl;
+    }
 
 
 
