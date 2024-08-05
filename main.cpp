@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 #include <math.h>
+#include <algorithm>
+#include <vector>
 #include "function.cpp"
 
 
@@ -195,11 +197,52 @@ int main(){
 
 ///////////////////////////////////////////////////////
 
-int i = 0;
+/*int i = 0;
 while(i < 5){
     std::cout << i << std::endl;
     i++;
 }
+
+
+int j = 0;
+
+do {
+    std::cout << j << std::endl;
+    j++;
+} while (j > 5);*/
+
+///////////////////////////////////////////////////////
+
+
+    /*int arr[10] = {1,2,3,4,5,6,7,8,9,10};
+    int length = sizeof(arr) / sizeof(arr[0]);
+
+    for(int i = 0; i < length; i++){
+        std::cout << arr[i] << std::endl;
+    }*/
+
+///////////////////////////////////////////////////////
+
+
+   /*std::vector<int> myVect = {1, 2, 3, 4, 5};
+
+    myVect.push_back(10);
+    myVect.pop_back();
+
+    int length = myVect.size();
+
+    for (int i = 0; i < length; i++) {
+        std::cout << myVect[i] << std::endl;
+    }*/
+
+///////////////////////////////////////////////////////
+
+    
+
+
+
+
+
 
 
     return 0;
