@@ -3,7 +3,9 @@
 #include <math.h>
 #include <algorithm>
 #include <vector>
+#include <list>
 #include "function.cpp"
+#include "struct.cpp"
 
 
 
@@ -237,14 +239,73 @@ do {
 
 ///////////////////////////////////////////////////////
 
-    
+   /*int myNumbers[] = {1,2,23,43124,35,346,45,6754,675,47,45,7};
+
+    int siz = sizeof(myNumbers);
+
+    std::cout << siz << std::endl;
+
+    std::list<int> myList = {1,2,3,4,4,5,35,35,43};
+
+    int size = myList.size();
+
+    std::cout << size << std::endl;*/
+
+    ///////////////////////////////////////////////////////
+
+
+/*   int sum = add(2,3);
+
+   std::cout << "The sum of addition is: " << sum << std::endl;
+
+   int arr[] = {2,3,4,24,2,523,5,2345,23,423};
+
+   int length = sizeof(arr) / sizeof(arr[0]);
+
+   std::cout << "The length of the array is: " << length << std::endl;
+
+
+    */
+
+///////////////////////////////////////////////////////
+
+
+/*int arr[] = {132,423,432,423,4,323,12,3214,32,3421,3};
+
+int length = sizeof(arr) / sizeof(arr[0]);
+
+std::cout << "The size of the array is: " << length << std::endl;
+
+
+std::cout << std::endl;
+
+for(int i = 0; i < length; i++){
+    std::cout << arr[i] << std::endl;
+}
+
+
+std::vector<int> myVec = {32,4,423,5,24,2,43,24,32};
+
+std::sort(myVec.begin(), myVec.end());
+
+for(int num : myVec){
+    std::cout << num << std::endl;
+}*/
+
+
+///////////////////////////////////////////////////////
+
+Student student1 = {"Amin Nazari", 20, 181, 'A'};
+
+std::cout << "The students name is: " << student1.name << std::endl;
+std::cout << "The students age is: " << student1.age << std::endl;
+std::cout << "The students height is: " << student1.height << std::endl;
+std::cout << "The students grade is: " << student1.grade << std::endl;
 
 
 
 
 
-
-
-    return 0;
+return 0;
 }
 
