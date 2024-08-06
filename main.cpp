@@ -295,12 +295,56 @@ for(int num : myVec){
 
 ///////////////////////////////////////////////////////
 
-Student student1 = {"Amin Nazari", 20, 181, 'A'};
+/*Student student1 = {"Amin Nazari", 20, 181, 'A'};
 
 std::cout << "The students name is: " << student1.name << std::endl;
 std::cout << "The students age is: " << student1.age << std::endl;
 std::cout << "The students height is: " << student1.height << std::endl;
-std::cout << "The students grade is: " << student1.grade << std::endl;
+std::cout << "The students grade is: " << student1.grade << std::endl;*/
+
+///////////////////////////////////////////////////////
+
+
+/*std::string food = "Pizza";
+std::string &meal = food;
+
+meal = "Avocado";
+
+std::cout << food << std::endl;
+std::cout << meal << std::endl;
+std::cout << &food << std::endl;
+std::cout << &meal << std::endl;*/
+
+///////////////////////////////////////////////////////
+
+/*std::string food = "Avocado";
+std::string *ptr = &food;
+
+*ptr = "Banana";
+
+std::cout << food << std::endl;
+std::cout << &food << std::endl;
+std::cout << ptr << std::endl;
+std::cout << *ptr << std::endl;*/
+
+///////////////////////////////////////////////////////
+
+/*int value = 5;
+
+std::cout << "Before the change: " << value << std::endl;
+
+updateValue(value);
+
+std::cout << "The new value is: " << value << std::endl;
+*/
+
+
+///////////////////////////////////////////////////////
+
+name1("Amin ");
+
+
+
 
 
 

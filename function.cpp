@@ -12,3 +12,21 @@ void Greetings(){
 int add(int a,int b){
     return a + b;
 }
+
+///////////////////////////////////////////////////////
+
+int mult(int a , int b){
+    return a * b;
+}
+
+///////////////////////////////////////////////////////
+
+void updateValue(int &num) {
+    num += 10;
+}
+
+///////////////////////////////////////////////////////
+
+void name1(std::string name){
+    std::cout << name << "Nazari" << std::endl;
+}
