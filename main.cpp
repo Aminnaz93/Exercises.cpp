@@ -341,13 +341,21 @@ std::cout << "The new value is: " << value << std::endl;
 
 ///////////////////////////////////////////////////////
 
-name1("Amin ");
+//name1("Amin ");
 
+///////////////////////////////////////////////////////
 
+/*int sum = add1(4);
 
+std::cout << "Resultet är: " << sum << std::endl;*/
 
+///////////////////////////////////////////////////////
 
+int myArr[] = {1,2,3,4,5,7,8,9,10};
 
+ int length = sizeof(myArr) / sizeof(myArr[0]);
+
+myArray(myArr,length);
 
 
 return 0;
