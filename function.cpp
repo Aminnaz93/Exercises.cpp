@@ -47,3 +47,22 @@ void myArray(int arr[],int length){
         std::cout << arr[i] << std::endl;
     }
 } 
+
+
+///////////////////////////////////////////////////////
+
+int add(int a , int b, int c){
+    return a + b + c;
+}
+
+
+///////////////////////////////////////////////////////
+
+
+void test(){
+    int x = 5;
+
+    x++;
+
+    std::cout << x << std::endl;
+}
