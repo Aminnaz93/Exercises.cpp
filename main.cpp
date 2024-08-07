@@ -375,11 +375,9 @@ std::cout << sum2 << std::endl;
 
 ///////////////////////////////////////////////////////
 
-MyClass Student1 = {"Amin Nazari", 31, 'B'};
 
-std::cout << Student1.name << std::endl;
-std::cout << Student1.age << std::endl;
-std::cout << Student1.grade << std::endl;
+
+
 
 
 
