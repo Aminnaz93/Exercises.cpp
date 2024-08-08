@@ -375,6 +375,45 @@ std::cout << sum2 << std::endl;
 
 ///////////////////////////////////////////////////////
 
+/*MyClass student1;
+
+int speed = student1.MaxSpeed(200);
+
+
+std::cout << "Max Speed: " << speed << std::endl;
+
+
+student1.setName("Amin");
+student1.setAge(20);
+student1.setGrade('B');
+
+student1.getName();
+student1.getAge();
+student1.getGrade();
+
+student1.setName("Passi");
+
+student1.getName();*/
+
+
+///////////////////////////////////////////////////////
+
+Car car1("BMW", "X6", 1993);
+
+car1.getBrand();
+car1.getModel();
+car1.getYear();
+
+std::cout << std::endl;
+
+car1.setBrand("Mercedes");
+car1.setModel("A-Class");
+car1.setYear(2024);
+
+
+car1.getBrand();
+car1.getModel();
+car1.getYear();
 
 
 
