@@ -90,4 +90,39 @@ void setYear(int newYear){
 };
 
 
+///////////////////////////////////////////////////////
+
+class Spiderman
+{
+private:
+    std::string name;
+    int age;
+    int power;
+public:
+
+Spiderman(std::string name1, int age1, int power1) : name(name1), age(age1), power(power1){}
+
+
+void setName(const std::string &name1){
+    name = name1;
+}
+
+void setAge(int age1){
+    age = age1;
+}
+
+void setPower(int power1){
+    power = power1;
+}
+
+
+void getAttack() const{
+    std::cout << "Power Attack: " << power << std::endl;
+}
+
+
+
+};
+
+
 

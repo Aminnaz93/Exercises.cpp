@@ -398,7 +398,7 @@ student1.getName();*/
 
 ///////////////////////////////////////////////////////
 
-Car car1("BMW", "X6", 1993);
+/*Car car1("BMW", "X6", 1993);
 
 car1.getBrand();
 car1.getModel();
@@ -414,7 +414,41 @@ car1.setYear(2024);
 car1.getBrand();
 car1.getModel();
 car1.getYear();
+*/
 
+
+///////////////////////////////////////////////////////
+
+/*MyClass student1;
+MyClass student2;
+
+student1.setName("Amin");
+student1.setAge(20);
+student1.setGrade('A');
+
+
+student1.getName();
+student1.getAge();
+student1.getGrade();
+
+std::cout << std::endl;
+
+
+student2.setName("Passi");
+student2.setAge(10);
+student2.setGrade('B');
+
+student2.getName();
+student2.getAge();
+student2.getGrade();
+*/
+
+///////////////////////////////////////////////////////
+
+
+Spiderman spiderman1("Black Spiderman", 20, 1000);
+
+spiderman1.getAttack();
 
 
 
